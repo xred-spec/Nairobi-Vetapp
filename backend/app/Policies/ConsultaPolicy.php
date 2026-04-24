@@ -1,0 +1,79 @@
+<?php
+
+namespace App\Policies;
+
+use App\Models\Consulta;
+use App\Models\User;
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Auth\Access\Response;
+use App\Models\Cita;
+class ConsultaPolicy
+{
+    /**
+     * Determine whether the user can view any models.
+     */
+    public function viewAny(User $user): bool
+    {
+        if($user->hasRol('trabajador') || $user->hasRol('administrador')){
+            return true;
+        }
+        throw new AuthorizationException('El usuario no tiene permisos');
+    }
+
+    /**
+     * Determine whether the user can view the model.
+     */
+    public function view(User $user, Consulta $consulta): bool
+    {
+        if($user->hasRol('cliente') || $user->hasRol('trabajador') || $user->hasRol('administrador')){
+            return true;
+        }
+        throw new AuthorizationException('El usuario no tiene permisos para ver una consulta');
+    }
+
+    /**
+     * Determine whether the user can create models.
+     */
+    public function create(User $user): bool
+    {
+        if($user->hasRol('administrador') || $user->hasRol('trabajador')){
+            return true;
+        }
+        throw new AuthorizationException('El usuario no tiene permisos para crear una consulta');
+    }
+
+    /**
+     * Determine whether the user can update the model.
+     */
+    public function update(User $user, Consulta $consulta): bool
+    {
+        if($user->hasRol('administrador') || $user->hasRol('trabajador')){
+            return true;
+        }
+        throw new AuthorizationException('El usuario no tiene permisos para actualizar una consulta');
+    }
+
+    /**
+     * Determine whether the user can delete the model.
+     */
+    public function delete(User $user, Consulta $consulta): bool
+    {
+        return false;
+    }
+
+    /**
+     * Determine whether the user can restore the model.
+     */
+    public function restore(User $user, Consulta $consulta): bool
+    {
+        return false;
+    }
+
+    /**
+     * Determine whether the user can permanently delete the model.
+     */
+    public function forceDelete(User $user, Consulta $consulta): bool
+    {
+        return false;
+    }
+}

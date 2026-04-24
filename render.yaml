@@ -1,0 +1,17 @@
+
+services:
+  - type: web
+    name: backend-laravel
+    env: php
+    rootDir: backend
+    buildCommand: composer install --no-dev --optimize-autoloader && php artisan migrate --force --seed
+    startCommand: php artisan serve --host=0.0.0.0 --port=10000
+  - type: static
+    name: frontend-vue
+    env: static
+    staticPublishPath: frontend/dist
+    buildCommand: npm install && npm run build
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import './base.css';
+
+.vs__dropdown-menu {
+   /*width: 200px !important;*/
+    max-height: 200px !important;
+    margin-top: 4px !important;
+    background-color: #F5EBE0 !important;
+    border: 0.5px solid #D4B8A0 !important;
+}
+.vs__dropdown-option--highlight {
+  background-color: #C0392B !important;
+  color: white;
+}
+/*
+#app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+/*
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+*/

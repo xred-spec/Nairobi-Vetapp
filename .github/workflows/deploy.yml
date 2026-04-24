@@ -1,0 +1,43 @@
+name: Deploy Veterinaria Nairobi
+
+on:
+  push:
+    branches:
+      - produccion
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to DigitalOcean via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd /root/Integradora-Refactor
+            
+            git fetch origin produccion
+            git pull origin produccion || exit 1
+
+            docker build --no-cache -t vetbackend:latest .
+            
+            docker stop vet-container || true
+            docker rm vet-container || true
+            
+            docker run -d \
+              --name vet-container \
+              -p 80:80 \
+              -p 443:443 \
+              -p 6001:6001 \
+              -v /etc/letsencrypt/live/vetbackend.shop/fullchain.pem:/etc/nginx/certs/fullchain.pem \
+              -v /etc/letsencrypt/live/vetbackend.shop/privkey.pem:/etc/nginx/certs/privkey.pem \
+              --restart unless-stopped \
+              vetbackend:latest
+            
+            docker image prune -f

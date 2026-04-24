@@ -1,0 +1,138 @@
+[33m60bd835[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m productos
+[33me3ebec8[m Productos completo
+[33m3ca92fc[m actualizar
+[33m43c171e[m Merge branch 'main' of https://github.com/xred-spec/Integradora-Refactor
+[33md6b72a9[m Agregar,eliminar,ocultar
+[33me064e82[m Merge pull request #133 from xred-spec/Dev
+[33m83f554a[m[33m ([m[1;31morigin/Dev[m[33m, [m[1;31morigin/109-citas[m[33m)[m .
+[33m287da77[m Merge pull request #131 from xred-spec/109-citas
+[33m7d6151b[m commit post operativo xd
+[33m03de994[m[33m ([m[1;31morigin/129-crud-clientes[m[33m)[m Merge pull request #128 from xred-spec/87-creación-de-componentes-globales-para-el-front
+[33mc380a1a[m[33m ([m[1;31morigin/87-creación-de-componentes-globales-para-el-front[m[33m)[m dejame pushear
+[33m07059b3[m la paginacion ya pagina y se ve bonita y el content ya es componente
+[33mb216626[m Merge pull request #127 from xred-spec/112-prueba-para-subir-a-render
+[33m485a6a0[m Ruta para usarla en android porque si no android no funciona y lloro
+[33m15bcd05[m .
+[33mee35b68[m modal de clamar arreglado
+[33mc851905[m Merge pull request #126 from xred-spec/main
+[33m0495940[m cerrar
+[33mc27f274[m Merge pull request #125 from xred-spec/main
+[33meed225b[m funciona pls
+[33m692ecb5[m Merge pull request #124 from xred-spec/main
+[33m5c3255c[m main view
+[33m8073117[m Merge pull request #123 from xred-spec/109-citas
+[33m16727f1[m Merge branch 'main' into 109-citas
+[33ma062b7c[m citas
+[33m9771a0e[m paginacion ya pagina mascotas
+[33m9ef772b[m sera que la paginacion pagina?
+[33mb17a57d[m algo mas
+[33m71828c6[m algo
+[33m1e39b14[m permisos
+[33m64b1173[m Merge branch '112-prueba-para-subir-a-render' of https://github.com/xred-spec/Integradora-Refactor into 112-prueba-para-subir-a-render
+[33m1dff407[m Permisos
+[33m5c5867c[m Merge pull request #122 from xred-spec/112-prueba-para-subir-a-render
+[33m963dc5e[m Merge branch 'main' into 112-prueba-para-subir-a-render
+[33m676f61a[m El fin se acerca
+[33m664c40f[m Merge branch 'main' of https://github.com/xred-spec/Integradora-Refactor
+[33m44a9985[m Actualizando dependencias locales
+[33m8bd624a[m funciona?
+[33me149bed[m prueba
+[33m8f4681e[m ya no puedo
+[33m0f9b0fd[m estoy a un commit de commit suicidio
+[33m90a727d[m POR FAVOR YA FUNCIONA
+[33md1441fb[m porfavor
+[33m379c0f9[m lo tenia mal
+[33mee54541[m me equivoque
+[33m271d2f2[m verificacion del usuario
+[33md3f926b[m pues al parecer todo es culpa de la policy
+[33ma32899b[m probando donde falla
+[33m0c4190a[m noentiendo
+[33m7f18c24[m ME FALTO IMPORTAR EL AUTHROIZE REQUEST
+[33m5291ff0[m .
+[33m088da8f[m estan pasando cosas raras
+[33me14ac47[m con esto tiene que funcionar el token
+[33m66d4597[m las policies
+[33mbdcf061[m SE ME OLVIDO REGRESAR LOS PERMISOS
+[33mea913d2[m cambios apra continuar despues xd
+[33m99d2bc4[m por favorrr
+[33m44a62c8[m por favor
+[33m1ddfd35[m Merge pull request #121 from xred-spec/112-prueba-para-subir-a-render
+[33m062c081[m actualizados los seeders para que no den problemas
+[33m78e6034[m ya no aguanto
+[33m9e3abd6[m Merge pull request #120 from xred-spec/112-prueba-para-subir-a-render
+[33m7a00429[m cambios para aceptar los errores de la bd en razas
+[33m32c06f7[m Ahi estan las masacres
+[33mdea656c[m Merge branch 'main' into 112-prueba-para-subir-a-render
+[33ma283463[m si esto ya no funciona me amto
+[33m3dcd60a[m borre el otro sin querer
+[33m90f5195[m no entiendo
+[33m81f9cca[m ahora si
+[33m97b75f4[m con esto no deberia aparecer not found
+[33mf876515[m ahora si deberia funcionar
+[33m1c6eb54[m por que no funciona mascotas
+[33m04e4973[m changes
+[33m70176eb[m ya no aguanto 2}
+[33mb1cc3db[m ya no aguanto
+[33m2c2ba47[m[33m ([m[1;31morigin/118-crud-de-productos[m[33m)[m Merge pull request #117 from xred-spec/XXX-crear-frontend-de-trabajadores
+[33m0cd2c07[m[33m ([m[1;31morigin/XXX-crear-frontend-de-trabajadores[m[33m)[m Merge branch 'XXX-crear-frontend-de-trabajadores' of https://github.com/xred-spec/Integradora-Refactor into XXX-crear-frontend-de-trabajadores
+[33maddb9d0[m[33m ([m[1;32m98-crear-frontend-de-trabajadores[m[33m)[m front trabajadores/agregar
+[33m1415b9b[m Merge branch 'main' of https://github.com/xred-spec/Integradora-Refactor into 87-creación-de-componentes-globales-para-el-front
+[33m9088e25[m la card no cardea
+[33m6c4b8e2[m deploy
+[33m2e67ab6[m algo no esta funcionando en animales
+[33m1706e80[m Token
+[33m8cf7be6[m Paginacion
+[33m9bc59bf[m Merge pull request #116 from xred-spec/113-paginacion
+[33m98344b5[m[33m ([m[1;31morigin/98-crear-frontend-de-trabajadores[m[33m)[m Merge pull request #115 from xred-spec/114-fix-para-correo-al-pomento-de-crear-un-usuario-en-linea
+[33ma7c7ca9[m[33m ([m[1;31morigin/114-fix-para-correo-al-pomento-de-crear-un-usuario-en-linea[m[33m)[m ya muestra el mensaje correcto xd
+[33mf365833[m seeders modified
+[33mc18a79f[m Citas2.0
+[33m76b767e[m[33m ([m[1;31morigin/113-paginacion[m[33m)[m Componente de paginacion, paginacion implementada en animales y razas, falta mascotas
+[33mb0d6180[m vue selector added, some gotta change the css of that vue component in order to make it overflow-y.
+[33m6a95e1a[m Merge branch 'main' of https://github.com/xred-spec/Integradora-Refactor
+[33m2e02ef4[m algo
+[33m8862a03[m no estaban bien los semilleros
+[33m379be7f[m ahora si estan bien los semilleros
+[33mfd4b9c6[m cosas raras
+[33m60604be[m por alguna razon habian 2 seeders y uno tenia 1 en visibilidad
+[33m99ff08c[m ME FALTARON LOS SEEDERS
+[33md8381c4[m estaban mal las rutas aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[33m2d869e4[m el docker
+[33m162838c[m ya funcionaaaaaaaaaaa
+[33m5e5c8db[m AHORA TIENE DOCKER PARA QUE NO LLORE RENDER
+[33m95b216b[m asdfjkmdsfg
+[33mfc31289[m esto no quiere funcionar
+[33m6b52c99[m POR FAVOR
+[33m0fb8550[m por favor funciona
+[33ma6bf77f[m appointments logic //
+[33m790f20c[m esto funciona en teoria para subir
+[33m75dd142[m ants de probar para subir a render
+[33mf4c88b0[m[33m ([m[1;33mtag: [m[1;33mversion-alpha[m[33m)[m Merge pull request #111 from xred-spec/87-creación-de-componentes-globales-para-el-front
+[33me21cbf1[m diseño de login de rato lo hago bonito bonito
+[33m0cbdc01[m diseño de login de rato lo hago bonito bonito
+[33m86a3c52[m ya funciona (esta en proceso redirigir las rutas)
+[33m70208d0[m Merge branch 'main' of https://github.com/xred-spec/Integradora-Refactor into 87-creación-de-componentes-globales-para-el-front
+[33me06bef9[m AQUI ESTA EL TOKEN
+[33mfc7f613[m git no te gitrompas
+[33m9a57eb2[m git no te rompas
+[33m9168539[m Merge pull request #110 from xred-spec/106-carga-individual-de-mascotas
+[33mf823bf7[m[33m ([m[1;31morigin/106-carga-individual-de-mascotas[m[33m)[m AHORA SI YA TODO FUNCIONA, SI ALGO FALLA ES PORQUE DIOS ME ODIA
+[33md5fd0d9[m estan pasando cosas muy extrañas
+[33m24950f5[m diseño modales de login/usuario
+[33maad2dee[m YA QUEDO POR FIN YA ME PUEDO IR A DORMIR
+[33m027451a[m Merge branch 'main' of https://github.com/xred-spec/Integradora-Refactor into 87-creación-de-componentes-globales-para-el-front
+[33m382bd1c[m diseño funcional del login
+[33ma46abfb[m casi me rapo haciendo todo esto
+[33m4fd9ce7[m Merge pull request #108 from xred-spec/101-login-frontend
+[33m0f35084[m[33m ([m[1;31morigin/101-login-frontend[m[33m)[m Merge branch '101-login-frontend' of https://github.com/xred-spec/Integradora-Refactor into 101-login-frontend
+[33m0e40e43[m arreglo del bypass del handler del token
+[33mcc89384[m Merge branch 'main' of https://github.com/xred-spec/Integradora-Refactor into 87-creación-de-componentes-globales-para-el-front
+[33mcf1b0f0[m el trait ya trata
+[33m816ab4e[m Merge pull request #107 from xred-spec/101-login-frontend
+[33m28153b0[m Merge branch 'main' into 101-login-frontend
+[33m7087d88[m TO LOWER CASE FUNCTION 0W0
+[33md346c44[m users
+[33m920fe05[m cambios incompletos
+[33mb5d77a4[m ..
+[33m743cbf7[m prueba
+[33m62
